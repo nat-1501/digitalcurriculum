@@ -29,9 +29,8 @@ background: rgba(60, 60, 60, 1);
 position: relative;
 width: 204px;
 height: 68px;
-left: 68px;
 top: 272px;
-
+left: 68px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -40,11 +39,141 @@ line-height: 39px;
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
-
-
 color: #FFFFFF;
 
+}
 
+.img1 {
+    position: relative;
+    width: 136px;
+    height: 136px;
+    left: 68px;
+    top: 68px;
+}
 
+.endereco {
+    position: relative;
+    width: 95px;
+    height: 20px;
+    left: 68px;
+    top: 340px;
 
-}  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height */
+
+text-transform: uppercase;
+color: #6CD0DB;
+}
+
+.endereco p {
+
+position: align-items;
+width: 250px;
+height: 44px;
+left: 68px;
+top: 370px;
+
+font-family: Crimson Text;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+text-transform: capitalize;
+color: #D0D0D0;
+}
+
+.tel {
+position: relative;
+width: 112px;
+height: 20px;
+left: 68px;
+top: 439px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #6CD0DB;
+}
+
+.tel p {
+position: align-items;
+width: 90px;
+height: 22px;
+left: 68px;
+top: 469px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-transform: capitalize;
+color: #D0D0D0;
+white-space : nowrap;
+}
+
+.email {
+position: relative;
+width: 73px;
+height: 20px;
+left: 68px;
+top: 516px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #6CD0DB;
+}
+
+.email p {
+position: align-items;
+width: 138px;
+height: 22px;
+left: 68px;
+top: 546px;
+
+font-family: Crimson Text;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+text-transform: lowercase;
+color: #D0D0D0;
+}
+
+.nac {
+position: relative;
+width: 132px;
+height: 20px;
+left: 68px;
+top: 593px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #6CD0DB;
+}
+
+.nac p {
+position: align-items;
+width: 193px;
+height: 22px;
+left: 68px;
+top: 623px;
+font-family: Crimson Text;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #D0D0D0;
+}
