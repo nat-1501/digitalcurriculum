@@ -26,7 +26,11 @@ function app(){
              <span>NACIONALIDADE</span>
              <p>Brasileira </p>
             </div> 
+            <div className="colunadir">
+        <h1>NATALI SOARES</h1>
       </div>
+      </div>
+      
     </div>
   )
 }

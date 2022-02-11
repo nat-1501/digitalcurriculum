@@ -177,3 +177,22 @@ font-size: 16px;
 line-height: 22px;
 color: #D0D0D0;
 }
+
+.colunadir h1 {
+    position: relative;
+    width: 340px;
+    height: 68px;
+    left: 408px;
+    top: -65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #6CD0DB;
+    white-space : nowrap;
+
+}
