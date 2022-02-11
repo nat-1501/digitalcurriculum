@@ -27,8 +27,14 @@ function app(){
              <p>Brasileira </p>
             </div> 
             <div className="colunadir">
-        <h1>NATALI SOARES</h1>
-      </div>
+              <h1>NATALI SOARES</h1>
+              <p> Desenvolvedora Full Stack / front end</p>
+            <div className= "expec">
+              <h2>EDUCAÇÃO</h2>
+              <p>2018 - 2020 / Produção Multimidia (incompleto</p>
+            </div>    
+            </div>
+            
       </div>
       
     </div>
