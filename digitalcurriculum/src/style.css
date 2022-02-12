@@ -79,10 +79,14 @@
     color: #D0D0D0; 
 }
 
+.colunadir {
+    
+}
+
 
 .colunadir h1 {
     position: relative;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
@@ -92,27 +96,27 @@
     text-transform: uppercase;
     color: #6CD0DB;
     white-space : nowrap;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-bottom: 8px;
 }
 
 .colunadir p {
 
 position: relative;
-
 font-family: Crimson Text;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 22px;
-display: flex;
-align-items: center;
 text-transform: uppercase;
 color: #3C3C3C;
 white-space : nowrap;
-}
-
-.colunadir {
+margin-left: 70px;
 
 }
+
+
 
 .colunadir h2 {
 position: relative;
@@ -121,8 +125,25 @@ font-style: normal;
 font-weight: bold;
 font-size: 34px;
 line-height: 39px;
-display: flex;
-align-items: center;
 letter-spacing: 0.06em;
 color: #6CD0DB;
+
+}
+
+.expec h2 {
+    margin-left: 70px;
+    margin-top: 100px;
+    
+}
+
+.expec p {
+    position: relative;
+    font-family: Crimson Text;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3C3C3C;
+    white-space : nowrap;
+    margin-left: 70px;
+
 }

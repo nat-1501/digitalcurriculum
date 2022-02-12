@@ -43,11 +43,25 @@ function app(){
     
       <div className="colunadir">
               <h1>NATALI SOARES</h1>
-              <p> Desenvolvedora Full Stack / front end</p>
+              <p> Desenvolvedora FullStack / front end</p>
             <div className= "expec">
               <h2>EDUCAÇÃO</h2>
               <p>2018 - 2020 / Produção Multimidia (incompleto)</p>
+              <p>2022 / Alura - Trilha FullStack GB Desenvolve </p>
+            </div>
+            <div className="expec">
+              <h2>HABILIDADES</h2>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>LARAVEL</p>
+              <p>PHP</p>
+              <p>C#</p>
+              <p>JAVA SCRIPT</p>
             </div>    
+            <div className="expec">
+              <h2>EXPERIÊNCIA</h2>
+              <p>0000</p>
+            </div>
             </div>
     </div>
   )
