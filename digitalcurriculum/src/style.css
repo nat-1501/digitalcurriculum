@@ -1,189 +1,87 @@
 
 .cv {
-position: relative;
-height: 1054px;
-width: 816px;
-left: -2.842170943040401e-14px;
-top: 0px;
-border-radius: 0px;
-background: rgba(255, 255, 255, 1);
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-
+    position: relative;
+    height: 1054px;
+    width: 816px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
 }
 
 .coluna {
-
-height: 1054px;
-width: 340px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-background: rgba(60, 60, 60, 1);
+    height: 1054px;
+    width: 340px;
+    left: 0px;
+    top: 0px;
+    background: rgba(60, 60, 60, 1);
+    padding: 60px;
 }
 
 .coluna h1 {
-
-position: relative;
-width: 204px;
-height: 68px;
-top: 272px;
-left: 68px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 39px;
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    margin-bottom: 14px;
+    white-space: nowrap;
 }
 
 .img1 {
     position: relative;
-    width: 136px;
-    height: 136px;
-    left: 68px;
-    top: 68px;
+    height: 250px;
+    margin-bottom: 18px;
 }
 
-.endereco {
+.informacoes {
     position: relative;
-    width: 95px;
-    height: 20px;
-    left: 68px;
-    top: 340px;
+    margin-bottom: 25px;
+}
 
-    font-family: Montserrat;
-    font-style: normal;
+.informacoes span {
+    color: #6CD0DB;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-/* identical to box height */
-
-text-transform: uppercase;
-color: #6CD0DB;
 }
 
-.endereco p {
 
-position: align-items;
-width: 250px;
-height: 44px;
-left: 68px;
-top: 370px;
-
-font-family: Crimson Text;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 25px;
-text-transform: capitalize;
-color: #D0D0D0;
+.informacoes p {
+    font-family: Crimson Text;
+    font-size: 16px;
+    line-height: 22px;
+    color: #D0D0D0;
 }
 
-.tel {
-position: relative;
-width: 112px;
-height: 20px;
-left: 68px;
-top: 439px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
-color: #6CD0DB;
+.separador {
+    position: relative;
+    height: 3px;
+    background: #6CD0DB;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-top: 50px;
 }
 
-.tel p {
-position: align-items;
-width: 90px;
-height: 22px;
-left: 68px;
-top: 469px;
-font-family: Crimson Text;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-text-transform: capitalize;
-color: #D0D0D0;
-white-space : nowrap;
+.perfil h1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    margin-top: 90px;
 }
 
-.email {
-position: relative;
-width: 73px;
-height: 20px;
-left: 68px;
-top: 516px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
-color: #6CD0DB;
+.perfil p {
+    font-family: Crimson Text;
+    font-size: 16px;
+    line-height: 22px;
+    color: #D0D0D0; 
 }
 
-.email p {
-position: align-items;
-width: 138px;
-height: 22px;
-left: 68px;
-top: 546px;
-
-font-family: Crimson Text;
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 22px;
-text-transform: lowercase;
-color: #D0D0D0;
-}
-
-.nac {
-position: relative;
-width: 132px;
-height: 20px;
-left: 68px;
-top: 593px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
-color: #6CD0DB;
-}
-
-.nac p {
-position: align-items;
-width: 193px;
-height: 22px;
-left: 68px;
-top: 623px;
-font-family: Crimson Text;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-color: #D0D0D0;
-}
 
 .colunadir h1 {
     position: relative;
-    width: 340px;
-    height: 68px;
-    left: 408px;
-    top: -65px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -199,10 +97,6 @@ color: #D0D0D0;
 .colunadir p {
 
 position: relative;
-width: 272px;
-height: 22px;
-left: 410px;
-top: -60px;
 
 font-family: Crimson Text;
 font-style: normal;
@@ -216,13 +110,13 @@ color: #3C3C3C;
 white-space : nowrap;
 }
 
+.colunadir {
+
+}
+
 .colunadir h2 {
 position: relative;
-width: 340px;
-height: 68px;
-left: 408px;
-top: 65px;
-font-family:monospace;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 34px;
