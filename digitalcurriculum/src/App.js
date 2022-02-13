@@ -1,70 +1,73 @@
+import "./style.css";
+import Imagem from "./image-photo.png";
 
-import './style.css';
-import Imagem from './image-photo.png'
-
-function app(){
-  return(
+function app() {
+  return (
     <div className="cv">
-      
       <div className="coluna">
-          <img className="img1" alt='img' src={Imagem}/>
-            <h1>CONTATO</h1>
-            
-            <div className="informacoes">
-              <span>ENDEREÇO</span>
-              <p> Travessa Nilo Chagas 09, Fazenda da juta, São Paulo - SP </p> 
-            </div>
+        <img className="img1" alt="img" src={Imagem} />
+        <h1>CONTATO</h1>
 
-            <div className="informacoes">
-              <span>CELULAR</span>
-              <p>(11) 98427-1548</p>
-            </div>
+        <div className="informacoes">
+          <span>ENDEREÇO</span>
+          <p> Travessa Nilo Chagas 09, Fazenda da juta, São Paulo - SP </p>
+        </div>
 
-            <div className="informacoes">
-              <span>EMAIL</span>
-              <p> natalisoares90@gmail.com</p>
-            </div>
+        <div className="informacoes">
+          <span>CELULAR</span>
+          <p>(11) 98427-1548</p>
+        </div>
 
-            <div className="informacoes">
-              <span>NACIONALIDADE</span>
-              <p>Brasileira </p>
-            </div> 
+        <div className="informacoes">
+          <span>EMAIL</span>
+          <p> natalisoares90@gmail.com</p>
+        </div>
 
-            <div className="separador">
-              
-            </div>        
+        <div className="informacoes">
+          <span>NACIONALIDADE</span>
+          <p>Brasileira </p>
+        </div>
 
-            <div className="perfil">
-              <h1>PERFIL</h1>
-              <p>Focada sempre em ser e mostrar meu melhor, tenho habilidades como boa comunicação, determinação. Apaixonada por estudos e leitura, não tenho experiencia na área, porém tenho muito sangue nos olhos para mostrar tudo o que eu tenho aprendido e sede de absorver o que puder para me tornar uma profisional de requinte no mercado de trabalho. </p>    
+        <div className="separador"></div>
 
-            </div>
-      </div> 
-    
+        <div className="perfil">
+          <h1>PERFIL</h1>
+          <p>
+            Focada sempre em ser e mostrar meu melhor, tenho habilidades como
+            boa comunicação, determinação. Apaixonada por estudos e leitura, não
+            tenho experiencia na área, porém tenho muito sangue nos olhos para
+            mostrar tudo o que eu tenho aprendido e sede de absorver o que puder
+            para me tornar uma profisional de requinte no mercado de trabalho.{" "}
+          </p>
+        </div>
+      </div>
+
       <div className="colunadir">
-              <h1>NATALI SOARES</h1>
-              <p> Desenvolvedora FullStack / front end</p>
-            <div className= "expec">
-              <h2>EDUCAÇÃO</h2>
-              <p>2018 - 2020 / Produção Multimidia (incompleto)</p>
-              <p>2022 / Alura - Trilha FullStack GB Desenvolve </p>
-            </div>
-            <div className="expec">
-              <h2>HABILIDADES</h2>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>LARAVEL</p>
-              <p>PHP</p>
-              <p>C#</p>
-              <p>JAVA SCRIPT</p>
-            </div>    
-            <div className="expec">
-              <h2>EXPERIÊNCIA</h2>
-              <p>0000</p>
-            </div>
-            </div>
+        <h1>NATALI SOARES</h1>
+        <p> Desenvolvedora FullStack / front end</p>
+        <div className="expec">
+          <h2>EDUCAÇÃO</h2>
+          <p>2018 - 2020 / Produção Multimidia (incompleto)</p>
+          <p>2022 / Alura - Trilha FullStack GB Desenvolve </p>
+        </div>
+        <div className="expec">
+          <h2>HABILIDADES</h2>
+          <div className="item">HTML/CSS</div>
+          <p>LARAVEL</p>
+          <p>PHP</p>
+          <p>REACTJS</p>
+          <p>C#</p>
+          <p>JAVA SCRIPT</p>
+        </div>
+        <div className="expec">
+          <h2>EXPERIÊNCIA</h2>
+          <p>2022 - Atual / Criação Portifólio</p>
+          <p>2021 / Criação de um sistema de Batataria em Laravel</p>
+          <p>2021 / Criação  de um Editor de texto em C#</p>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default app 
+export default app;

@@ -113,12 +113,13 @@ text-transform: uppercase;
 color: #3C3C3C;
 white-space : nowrap;
 margin-left: 70px;
+margin-bottom: 10px;
 
 }
 
 
 
-.colunadir h2 {
+.expec h2 {
 position: relative;
 font-family: 'Montserrat', sans-serif;
 font-style: normal;
@@ -127,23 +128,37 @@ font-size: 34px;
 line-height: 39px;
 letter-spacing: 0.06em;
 color: #6CD0DB;
+margin-bottom: 26px;
+margin-left: 70px;
+margin-top: 75px;
 
-}
 
-.expec h2 {
-    margin-left: 70px;
-    margin-top: 100px;
     
 }
 
 .expec p {
     position: relative;
     font-family: Crimson Text;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
     color: #3C3C3C;
-    white-space : nowrap;
-    margin-left: 70px;
+    white-space: nowrap;
+    line-height: 32px;
+    text-transform: capitalize;
+
+}
+
+.item {
+    position: relative;
+    font-family: Crimson Text;
+    margin: 5px;
+	background: rgb(8, 8, 8);
+	text-align: center;
+	font-size: 16px;
+    position: relative;
+    Width:10px;
+    Height:10px;
+    flex-wrap: wrap;
+    margin-left: 50px;
 
 }
