@@ -19,6 +19,7 @@
 }
 
 .coluna h1 {
+    font-family: 'Montserrat', sans-serif; 
     font-weight: bold;
     font-size: 32px;
     line-height: 39px;
@@ -40,6 +41,8 @@
 }
 
 .informacoes span {
+    font-family: Montserrat;
+    font-style: normal;
     color: #6CD0DB;
     font-weight: 500;
     font-size: 16px;
@@ -93,7 +96,6 @@
     line-height: 68px;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
     color: #6CD0DB;
     white-space : nowrap;
     margin-top: 120px;
@@ -142,9 +144,9 @@ margin-top: 75px;
     font-weight: normal;
     font-size: 16px;
     color: #3C3C3C;
-    white-space: nowrap;
     line-height: 32px;
-    text-transform: capitalize;
+    line-height: 22px;
+    text-transform: none;
 
 }
 
