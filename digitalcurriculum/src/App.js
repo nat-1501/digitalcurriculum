@@ -51,20 +51,80 @@ function app() {
           <p>2022 / Alura - Trilha FullStack GB Desenvolve </p>
         </div>
         <div className="expec">
+      
           <h2>HABILIDADES</h2>
-          <div className="item">HTML/CSS</div>
+          <p>HTML/CSS</p>
+          
+          <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+         
+
           <p>LARAVEL</p>
+          
+          <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+         
+
           <p>PHP</p>
+          
+          <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+         
+          
           <p>REACTJS</p>
-          <p>C#</p>
+         
+          <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+          
+
+         <p>C#</p>
+         
+         <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+        
+
           <p>JAVA SCRIPT</p>
-        </div>
+         
+          <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+
         <div className="expec">
           <h2>EXPERIÊNCIA</h2>
           <p>2022 - Atual / Criação Portifólio</p>
           <p>2021 / Criação de um sistema de Batataria em Laravel</p>
           <p>2021 / Criação  de um Editor de texto em C#</p>
         </div>
+      </div>
       </div>
     </div>
   );
