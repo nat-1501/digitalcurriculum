@@ -15,12 +15,12 @@ function app() {
 
         <div className="informacoes">
           <span>CELULAR</span>
-          <p>(11) 98427-1548</p>
+          <p><a href="tel:(11) 98427-1548">(11) 98427-1548</a></p>
         </div>
 
         <div className="informacoes">
           <span>EMAIL</span>
-          <p> natalisoares90@gmail.com</p>
+          <p><a href="email:natalisoraes90@gmail.com"> natalisoares90@gmail.com</a></p>
         </div>
 
         <div className="informacoes">
