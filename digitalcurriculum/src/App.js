@@ -37,14 +37,14 @@ function app() {
             boa comunicação, determinação. Apaixonada por estudos e leitura, não
             tenho experiencia na área, porém tenho muito sangue nos olhos para
             mostrar tudo o que eu tenho aprendido e sede de absorver o que puder
-            para me tornar uma profisional de requinte no mercado de trabalho.{" "}
+            para me tornar uma profisional de requinte no mercado de tecnologia.{" "}
           </p>
         </div>
       </div>
 
       <div className="colunadir">
         <h1>NATALI SOARES</h1>
-        <p> Desenvolvedora FullStack / front end</p>
+        <p> Desenvolvedora FullStack </p>
         <div className="expec">
           <h2>EDUCAÇÃO</h2>
           <p>2018 - 2020 / Produção Multimidia (incompleto)</p>
@@ -59,7 +59,7 @@ function app() {
           <span className="ponto"></span>
           <span className="ponto"></span>
           <span className="ponto"></span>
-          <span className="embranco"></span>
+          <span className="ponto"></span>
           <span className="embranco"></span>
           </div>
          
@@ -81,6 +81,16 @@ function app() {
           <span className="ponto"></span>
           <span className="ponto"></span>
           <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
+
+          <p>NODEJS</p>
+         
+         <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
           <span className="embranco"></span>
           <span className="embranco"></span>
           </div>
@@ -106,6 +116,16 @@ function app() {
           <span className="embranco"></span>
           <span className="embranco"></span>
           </div>
+
+          <p>MySQL</p>
+         
+         <div className="skill">
+          <span className="ponto"></span>
+          <span className="ponto"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          <span className="embranco"></span>
+          </div>
         
 
           <p>JAVA SCRIPT</p>
@@ -120,9 +140,11 @@ function app() {
 
         <div className="expec">
           <h2>EXPERIÊNCIA</h2>
-          <p>2022 - Atual / Criação Portifólio</p>
+          <p>2022 / Criação de um buscador de Cep em React.JS</p>
+          <p>2022 - Atual / Criação Portifólio em HTML & CSS </p>
           <p>2021 / Criação de um sistema de Batataria em Laravel</p>
           <p>2021 / Criação  de um Editor de texto em C#</p>
+          
         </div>
       </div>
       </div>
